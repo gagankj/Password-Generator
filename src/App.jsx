@@ -34,8 +34,8 @@ const App = () => {
 
   return (
     <div className="h-screen w-screen flex justify-center p-10 bg-slate-500">
-      <div className="h-64 text-orange-400 justify-center backdrop-blur-lg w-3/4 bg-black rounded-xl">
-      <h1 className="text-center mt-4">Random Password Generator</h1>
+      <div className="h-64 text-white justify-center backdrop-blur-lg w-3/4 bg-black rounded-xl">
+      <h1 className="text-center mt-4"> Password Generator</h1>
       <div className="text-center flex mt-4 justify-center">
 
         <input className="bg-white text-black text-2xl p-5 rounded-lg h-12 w-4/6 ml-6" 
@@ -53,8 +53,8 @@ const App = () => {
       <input 
       type="range"
       defaultValue={6}
-      min={6}
-      max={15}
+      min={7}
+      max={16}
       onChange={(e)=>setLength(e.target.value)}
       />
 

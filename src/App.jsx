@@ -34,11 +34,11 @@ const App = () => {
 
   return (
     <div className="h-screen w-screen flex justify-center p-10 bg-zinc-700">
-      <div className="h-64 text-blue-600 justify-center backdrop-blur-lg w-3/4 bg-amber-50 rounded-xl">
+      <div className="h-64 text-blue-600 justify-center backdrop-blur-lg w-2/4 bg-black rounded-xl">
       <h1 className="text-center mt-4"> Password Generator</h1>
       <div className="text-center flex mt-8 justify-center">
 
-        <input className="bg-black text-2xl p-5 rounded-lg h-12 w-4/6 ml-6" 
+        <input className="bg-white text-2xl p-5 rounded-lg h-12 w-1/3 ml-6" 
         type="text"
         value={password}
         readOnly

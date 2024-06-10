@@ -1,7 +1,7 @@
 {
   "name": "passwordgenerator",
   "private": true,
-  "homepage": "https://gagankj.github.io/RandomPasswordGenerator",
+  "homepage": "https://gagankj.github.io/Password-Generator",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

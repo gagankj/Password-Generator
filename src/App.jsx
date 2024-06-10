@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from 'react'
 const App = () => {
 
   const[password,setpass]=useState("")
-  const [length,setLength]=useState(8)
+  const [length,setLength]=useState(6)
   const [number,numberAllowed]=useState(false)
   const [char,charAllowed]=useState(false)
 
@@ -33,12 +33,12 @@ const App = () => {
 
 
   return (
-    <div className="h-screen w-screen flex justify-center p-10 bg-slate-500">
-      <div className="h-64 text-white justify-center backdrop-blur-lg w-3/4 bg-black rounded-xl">
+    <div className="h-screen w-screen flex justify-center p-10 bg-zinc-700">
+      <div className="h-64 text-blue-600 justify-center backdrop-blur-lg w-3/4 bg-amber-50 rounded-xl">
       <h1 className="text-center mt-4"> Password Generator</h1>
-      <div className="text-center flex mt-4 justify-center">
+      <div className="text-center flex mt-8 justify-center">
 
-        <input className="bg-white text-black text-2xl p-5 rounded-lg h-12 w-4/6 ml-6" 
+        <input className="bg-black text-2xl p-5 rounded-lg h-12 w-4/6 ml-6" 
         type="text"
         value={password}
         readOnly
@@ -48,12 +48,12 @@ const App = () => {
 
 
       </div>
-    <div className="flex justify-center mt-5">
+    <div className="flex justify-center mt-8">
 
-      <input 
+      <input className=' bg-gray-200 rounded-lg cursor-pointer'
       type="range"
       defaultValue={6}
-      min={7}
+      min={6}
       max={16}
       onChange={(e)=>setLength(e.target.value)}
       />

@@ -16,7 +16,7 @@ The Random Password Generator allows you to generate strong, random passwords to
 
 ## 🌐 Try it Out
 
-Give the Random Password Generator a try: [Random Password Generator](https://gagankj.github.io/RandomPasswordGenerator/)
+Give the Random Password Generator a try: [Random Password Generator](https://gagankj.github.io/Password-Generator/)
 
 ## 🛠 Technologies Used
 
